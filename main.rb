@@ -7,8 +7,10 @@ if (Gem.win_platform?)
   end
 end
 
-require_relative "lib/console_interface"
-require_relative "lib/game"
+require_relative 'lib/console_interface'
+require_relative 'lib/game'
+require 'colorize'
+require 'colorized_string'
 
 puts "Всем привет!"
 
